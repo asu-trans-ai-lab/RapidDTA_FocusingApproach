@@ -1,0 +1,40 @@
+_____________
+Step 1: Reading input data
+_____________
+Step 1.1: Reading section [demand_period] in setting.csv...
+number of demand periods = 1
+Step 1.2: Reading section [link_type] in setting.csv...
+important: traffic_flow_code on link type 1 is 1
+important: traffic_flow_code on link type 2 is 1
+number of link types = 3
+Step 1.3: Reading section [agent_type] in setting.csv...
+number of agent typess = 1
+Step 1.4: Reading node data in node.csv...
+Reading node data at layer
+number of nodes = 933
+number of multimodal activity nodes = 0
+number of zones = 387
+Step 1.5: Initializing O-D zone vector...
+number of zones = 387
+
+Step 1.8: Reading file section [demand_file_list] in setting.csv...
+Step 1.6: Reading link data in link.csv... 
+number of links =2950
+number of links =2950
+
+Step 1.8: Reading file section [demand_file_list] in setting.csv...
+
+150 zones are not signifantly related by the subarea. = (0.387597)
+42 zones are inside the subarea. 
+total demand = 1.26091e+06 total subarea-related demand = 397349 (0.315129 )
+
+Step 1.8: Reading file section [demand_file_list] in setting.csv...
+o_zone_id:1, d_zone_id: 1, value = 273.18
+o_zone_id:1, d_zone_id: 2, value = 347.31
+o_zone_id:1, d_zone_id: 3, value = 390.81
+o_zone_id:1, d_zone_id: 4, value = 204.51
+o_zone_id:1, d_zone_id: 5, value = 373.73
+o_zone_id:1, d_zone_id: 6, value = 199.7
+total demand volume is 772201
+crtical demand volume has 10790 OD pairs in size,756170, , account for 97.924%%
+crtical OD zones volume has 10790 OD pairs in size,756170, , account for 97.924%%

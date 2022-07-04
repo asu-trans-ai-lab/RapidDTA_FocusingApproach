@@ -1,0 +1,16 @@
+, # of node layers to be read,1,
+Step 1: read network node.csv, link.csv, zone.csv 
+,# of nodes = ,1320
+,# of links =,2950
+,# of zones =,387
+,summary by multi-modal and demand types,demand_period,agent_type,# of links,avg_free_speed,total_length_in_km,total_capacity,avg_lane_capacity,avg_length_in_meter,
+,,AM,p,2950,60,13187,4.6718e+07,15836.6,4470.17,
+,summary by road link type,link_type,link_type_name,# of links,avg_free_speed,total_length,total_capacity,avg_lane_capacity,avg_length_in_meter,
+,,-1,,0,0,0,0,0,0,
+,,1,,2950,60,13187,4.6718e+07,15836.6,4470.17,
+,,2,,0,0,0,0,0,0,
+pre-read demand, defined in [demand_file_list] in settings.csv.
+,# of subarea related zones =,150
+Step 2: read demand, defined in [demand_file_list] in settings.csv.
+,file_sequence_no=,1,file_name =, demand.csv,demand_period =, AM,departure_time_profile_no=,0,cumulative demand =, 772201
+,total demand =, 772201
