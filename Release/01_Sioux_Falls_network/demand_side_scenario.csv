@@ -1,0 +1,4 @@
+scenario_type,o_district_id,d_district_id,scale_factor,demand_period,,,,,,
+o_based,1,,1,AM,,,,,,
+,,,,,,sa_d_based,,2,2,AM
+,,,,,,sa_od_based,3,4,2,AM
